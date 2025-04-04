@@ -50,7 +50,6 @@ Ensure you have the following installed:
 4. Set up environment variables:
    ```sh
    export OPENAI_API_KEY="your_openai_api_key"
-   export DUCKDUCKGO_API_KEY="your_duckduckgo_api_key"
    ```
 5. Run the application:
    ```sh
