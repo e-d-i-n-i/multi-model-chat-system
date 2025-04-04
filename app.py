@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langsmith import trace
 from langchain.schema import HumanMessage, AIMessage
 from dotenv import load_dotenv
-from langchain_community.tools import DuckDuckGoSearchRun  # Replace Tavily with DuckDuckGo
+from langchain_community.tools import DuckDuckGoSearchRun 
 from langchain_openai import ChatOpenAI
 from langchain.agents import ConversationalChatAgent, AgentExecutor
 from langchain.memory import ConversationBufferMemory, ChatMessageHistory
